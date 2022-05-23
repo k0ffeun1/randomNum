@@ -1,0 +1,75 @@
+@font-face {
+    font-family: "EuclidFlex";
+    src: url(../fonts/EuclidFlex-Regular.otf);
+    font-weight: 400;
+}
+@font-face {
+    font-family: "EuclidFlex";
+    src: url(../fonts/EuclidFlex-Medium.otf);
+    font-weight: 500;
+}
+@font-face {
+    font-family: "EuclidFlex";
+    src: url(../fonts/EuclidFlex-Bold.otf);
+    font-weight: 700;
+}
+
+body {
+    background-color: rgb(33, 50, 105);
+    position: relative;
+    height: 100vh;
+    overflow: hidden;
+    font-family: 'EuclidFlex';
+    padding-top: 10%;
+}
+.task {
+    color: white;
+    width: 70%;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 40px;
+}
+p {
+    font-size: 30px;
+    color: white;
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 20px;
+}
+input {
+    display: block;
+    height: 50px;
+    width: 50%;
+    margin: 0 auto;
+    padding-left: 20px;
+    margin-bottom: 20px;
+    font-size: 40px;
+    border-radius: 10px;
+}
+button {
+    display: block;
+    width: 20%;
+    margin: 0 auto;
+    font-size: 30px;
+    border: none;
+    cursor: pointer;
+    background-color: white;
+    transition: 0.5s;
+    border-radius: 10px;
+}
+button:hover {
+    background-color: black;
+    color: white;
+}
+.result {
+    height: 50px;
+    font-size: 25px;
+    padding-top: 7px;
+    text-align: center;
+    display: flex;
+    color: white;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
